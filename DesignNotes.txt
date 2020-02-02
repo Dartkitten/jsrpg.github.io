@@ -1,0 +1,14 @@
+ ________                 __   ____  __.__  __    __                 
+ \______ \ _____ ________/  |_|    |/ _|__|/  |__/  |_  ____   ____  
+  |    |  \\__  \\_  __ \   __\      < |  \   __\   __\/ __ \ /    \ 
+  |    `   \/ __ \|  | \/|  | |    |  \|  ||  |  |  | \  ___/|   |  \
+ /_______  (____  /__|   |__| |____|__ \__||__|  |__|  \___  >___|  /
+         \/     \/                    \/                   \/     \/ 
+JSRPG 0.25
+Text-Based RPG engine
+
+
+Changelog
+11/2/2017
+
+*Polished a lot of the file/definition structure, Rooms/Items/Enemies now require an object reference (room.testroom, item.goblinclub, unit.goblin)

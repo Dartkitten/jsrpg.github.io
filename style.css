@@ -1,0 +1,227 @@
+body {
+	background-color: #333333;
+	color: #FFFFFF;
+}
+#header {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 120px;
+	background-color: #666666;
+}
+#sidebar {
+	position: fixed;
+	left: 0px;
+	margin-top: 0px;
+	width: 160px;
+	height: 100%;
+	background-color: #444444;
+}
+
+#logs {
+	margin-left: 152px;
+	margin-top: 120px;
+	margin-bottom: 16px;
+	height: calc(100% - 120px);
+	right: 0px;
+}
+    }
+#avatarimg {
+	margin-left: 12px;
+	margin-right: 16px;
+	margin-top: 32px;
+	position: inherit;
+	width: 128px;
+	height: 128px;
+	background-color: FFFFFF;
+	border-width: 2px;
+	border-color: #FFFFFF;
+	border-style: ridge;
+    border-width: 2px;
+}
+#wepimg {
+	margin-left: 12px;
+	margin-right: 16px;
+	margin-top: 14px;
+	position: inherit;
+	width: 128px;
+	height: 128px;
+	background-color: FFFFFF;
+	border-style: ridge;
+    border-width: 2px;
+}
+#avaname {
+	margin-top: 6px;
+	position: inherit;
+}
+#wepname {
+	margin-top: 6px;
+	position: inherit;
+	margin-bottom: 18px
+}
+#hpbar {
+	position: inherit;
+	margin-top: 12px;
+	height: 24px;
+	width: 148px;
+	margin-left: 6px;
+	margin-right: 6px;
+	background-color: #000000;
+}
+#hppercentage {
+	position: inherit;
+	height: 24px;
+	width: 148px;
+	background-color: #FF0000;
+	
+}
+#hptext {
+	position: inherit;
+	height: 18px;
+	margin-left: 8px;
+	margin-top: 14px;
+	color: #FFFFFF;
+	margin-bottom: 24px;
+}
+#mainpanel {
+	margin-top:56px;
+	position: inherit;
+	text-align: center;
+	margin-left: 6px;
+	margin-right: 6px;
+}
+mbtn {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Old versions of Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently supported by Chrome, Opera and Firefox */
+	color: #000000;
+	height: 20px;
+	width: 64px;
+	border-style: groove;
+    border-width: 2px;
+	text-align: center;
+	background-color: #867451;
+	border-color: #000000;
+	cursor: pointer;
+	border-radius: 5px;
+}
+mbtn:hover {
+	background-color: #775139;	
+}
+mbtn:active {	
+background-color: #654528;	
+	border-style: inset;
+}
+lbtn {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Old versions of Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently supported by Chrome, Opera and Firefox */
+	color: #AAAAAA;
+	border-style: groove;
+    border-width: 2px;
+	text-align: outset;
+	background-color: #444444;
+	border-color: #000000;
+	cursor: pointer;
+	border-radius: 5px;
+}
+lbtn:hover {
+	background-color: #323232;	
+}
+lbtn:active {	
+background-color: #212121;	
+	border-style: inset;
+}
+exit {
+	color: #AAAAAA;
+	border-style: groove;
+    border-width: 2px;
+	text-align: outset;
+	background-color: #444444;
+	border-color: #000000;
+	cursor: pointer;
+	border-radius: 5px;
+}
+exit:hover {
+	background-color: #323232;	
+}
+exit:active {	
+background-color: #212121;	
+	border-style: inset;
+}
+rmtxt {
+}
+log {
+	display: block;
+}
+rmnm {
+	font-weight: bolder;
+}
+invitem {
+	height: 134px;
+	display: block;
+	background-color: #4F4F4F;
+	width: 40%;
+	border-color: #333333;
+	border-style: solid;
+    border-width: 2px;
+}
+lootitem {
+	height: 134px;
+	display: block;
+	background-color: #4F4F4F;
+	width: 40%;
+	border-color: #333333;
+	border-style: solid;
+    border-width: 2px;
+}
+.invimg {
+	float:left;
+	margin-left: 2px;
+	margin-top: 2px;
+	border-style: ridge;
+    border-width: 2px;
+	width: 128px;
+	height: 128px;
+}
+invname {
+	position:block;
+}
+invctrl {
+	display:block;
+}
+#combatmenu {
+	visibility: hidden;
+	margin-left: 15px;
+	width: 120px;
+	background-color: #383838;
+	padding-bottom: 10px;
+	
+}
+#encounterexit {
+	visibility: hidden;
+}
+.butty {
+margin: auto;
+display: block;
+}
+.nsel {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently supported by Chrome, Opera and Firefox */
+}
+.goldsmall {
+	display: inline;
+	height: 16px;
+	width: 16px;
+}

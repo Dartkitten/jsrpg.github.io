@@ -1,0 +1,82 @@
+<html>
+<head>
+<script src="code/engine.js" >
+</script>
+<script src="code/definitions.js" >
+</script>
+<script>
+function start_scroll_down() {
+   scroll = setInterval(function(){ window.scrollBy(0, 1000); console.log('start');}, 1500);
+}
+ 
+function stop_scroll_down() {
+   clearInterval(scroll);
+   console.log('stop');
+}
+</script>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<center>
+<div id="header" >
+header
+</div>
+</center>
+<div id="sidebar" >
+<center>
+<div id="avatarimg" >
+<img id="avaimg" src="Graphics/ava.png">
+</div>
+<div id="avaname">
+Unknown
+</div>
+<div id="weaponimg">
+<img id="wepimg" src="Graphics/fist.png">
+</div>
+<div id="wepname">
+Fists
+</div>
+<b>Room: </b><b id="roomname">None</b>
+<input type="button" onclick="descroom()" value="Describe">
+</input>
+</center>
+<div id="hpbar" >
+<div id="hppercentage" >
+</div>
+</div>
+<div id="hptext" >
+70/70
+</div>
+<center>
+<div id="mainpanel"><hr>
+<mbtn class="butty" onclick="invlist()" >
+Inventory
+</mbtn><hr>
+<div id="combatmenu">
+<b>Battle</b><br>
+<hr>
+<mbtn class="butty" onclick="attack()" >
+Attack
+</mbtn><br>
+<mbtn class="butty" onclick="passturn()" >
+Pass
+</mbtn><br>
+<mbtn id="encounterexit"  onclick="encounterexit()" >
+End
+</mbtn>
+</div>
+</div>
+</div>
+</center>
+<center>
+<div id="logs" >
+<div id="innerlogs" >
+</div>
+<div id="loganchor" >
+</div>
+</div>
+</center>
+<script src="code/startup.js" >
+</script>
+</body>
+</html>
